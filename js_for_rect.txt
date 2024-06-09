@@ -1,0 +1,22 @@
+#Object Destructuring
+#Array Destructuring
+#Rest Operator
+#Spread Operator
+#Template Literal
+#Function Declaration
+#Function Expression
+#Function Calling Other Functions
+#Arrow Function(ES-6)
+#Short-Circutting using Logical Operators
+#Nullish Coalescing Operator
+#Optional Changing Operator(ES2020(ES11))
+#Ternery Operator
+#map() method
+#sort() method
+#CRUD Operation Concept
+#Working of client- Server Architechcture
+#Synchronous 
+#Asynchronous
+#API
+#Ajax
+
