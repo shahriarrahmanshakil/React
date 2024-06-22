@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headingStyle{
+    text-align: center;
+    background-color: purple;
+    color: white;
+    padding: 20px;
+}
+
+.cardbody{
+    background-color: cadetblue;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px lightblue;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.title{
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+}
+
+.date{
+    text-align: center;
+}
