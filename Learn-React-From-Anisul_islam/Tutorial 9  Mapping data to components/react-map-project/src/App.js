@@ -3,7 +3,7 @@ import Card from "./Components/card";
 import Data from "./data.json";
 
     function App(){
-        let items = [];
+        // let items = [];
         // for(let i = 0; i < Data.length; i++){
         //     items.push( <Card todo_title= {Data[0].todo_title} todo_des={Data[i].todo_des}/>);
         // }
