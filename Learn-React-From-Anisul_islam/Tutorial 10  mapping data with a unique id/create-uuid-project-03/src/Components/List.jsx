@@ -27,9 +27,10 @@ const todos = [
 function List(){
     return <div>
        {todos.map((todo) => {
+        const {todoTitle,todoDescription} = todo;
         return <div key={uuidv4()}>
-            <h1>{todo.todoTitle}</h1>
-            <h4>{todo.todoDescription}</h4>
+            <h1>{todoTitle}</h1>
+            <h4>{todoDescription}</h4>
         </div>
        })}
     </div>
