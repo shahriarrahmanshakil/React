@@ -28,70 +28,40 @@ const Sidebar = () => {
                 </li>
 
                 <li className="nav-item">
-                <a href="#" className="nav-link">
-                    <i className="nav-icon far fa-image" />
-                    <p>
-                    Gallery
-                    </p>
-                </a>
+                <NavLink to="/dashboard" className="nav-link">
+                    <i className="nav-icon fas fa-tachometer-alt" />     
+                    <p>Services</p>
+                </NavLink>
                 </li>
-            
+
                 <li className="nav-item">
-                    <a href="#" className="nav-link">
-                        <i className="nav-icon fas fa-user" />
-                        <p> Users <i className="fas fa-angle-left right" /> </p>
-                    </a>
-                    
-                        <ul className="nav nav-treeview">
-                            <li className="nav-item">
-                            <NavLink to="/add-user" className="nav-link">
-                                <i className="far fa-circle nav-icon" />
-                                <p>Add-User</p>
-                            </NavLink>
-                            </li>
-                            <li className="nav-item">
-                            <NavLink to ="/edit-user" className="nav-link">
-                                <i className="far fa-circle nav-icon" />
-                                <p>Edit-User</p>
-                            </NavLink>
-                            </li>
-                            <li className="nav-item">
-                            <NavLink to="/manage-user" className="nav-link">
-                                <i className="far fa-circle nav-icon" />
-                                <p>Manage User</p>
-                            </NavLink>
-                            </li>
-                        </ul>
+                <NavLink to="/dashboard" className="nav-link">
+                    <i className="nav-icon fas fa-tachometer-alt" />     
+                    <p>Destination</p>
+                </NavLink>
+                </li>
+
+                <li className="nav-item">
+                <NavLink to="/dashboard" className="nav-link">
+                    <i className="nav-icon fas fa-tachometer-alt" />     
+                    <p>Packages</p>
+                </NavLink>
                 </li>
                 <li className="nav-item">
-                <a href="#" className="nav-link">
-                    <i className="nav-icon fas fa-user" />
-                    <p>
-                   Category
-                    <i className="fas fa-angle-left right" />
-                    </p>
-                </a>
-                <ul className="nav nav-treeview">
-                    <li className="nav-item">
-                    <NavLink to="/add-category" className="nav-link">
-                        <i className="far fa-circle nav-icon" />
-                        <p>Add-Category</p>
-                    </NavLink>
-                    </li>
-                    <li className="nav-item">
-                    <NavLink to="/manage-user" className="nav-link">
-                        <i className="far fa-circle nav-icon" />
-                        <p>Manage User</p>
-                    </NavLink>
-                    </li>
-                    <li className="nav-item">
-                    <NavLink to="/new-category" className="nav-link">
-                        <i className="far fa-circle nav-icon" />
-                        <p>New User</p>
-                    </NavLink>
-                    </li>
-                </ul>
+                <NavLink to="/dashboard" className="nav-link">
+                    <i className="nav-icon fas fa-tachometer-alt" />     
+                    <p>Team</p>
+                </NavLink>
                 </li>
+                <li className="nav-item">
+                <NavLink to="/dashboard" className="nav-link">
+                    <i className="nav-icon fas fa-tachometer-alt" />     
+                    <p>Client</p>
+                </NavLink>
+                </li>
+
+
+                
             </ul>
             </nav>
             {/* /.sidebar-menu */}

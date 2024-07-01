@@ -1,6 +1,5 @@
 
-// import React from 'react';
-import Navbar from './components/Navbar';
+import React from 'react';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.css';
 import {BrowserRouter,Routes,Route } from 'react-router-dom';
@@ -22,7 +21,6 @@ const App = () => {
   return (
 <div className="wrapper">
      <BrowserRouter>
-     <Navbar/>
      <Sidebar/>
      <div className='content-wrapper'> 
       <Routes>
