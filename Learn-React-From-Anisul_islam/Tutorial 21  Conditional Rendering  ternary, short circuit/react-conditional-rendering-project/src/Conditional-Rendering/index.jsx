@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import Home from './Home'
 import Signin from './Signin'
 
@@ -12,11 +12,22 @@ class Conditional_Rendering extends Component {
     }
     
     render() {
-        if(this.state.isSignin){
-            return <Home />
-        }else{
-            return <Signin />
-        }
+        const {isSignin} = this.state;
+        let element;
+
+        // if(isSignin){
+        //     element = <Home />;
+        // }else{
+        //     element = <Signin />;
+        // }
+
+        element = isSignin ? <Home /> : <Signin />
+
+        return(
+            <div>
+                {element}
+            </div>
+        );
     }
 }
 export default Conditional_Rendering
