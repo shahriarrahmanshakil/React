@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    background-color: burlywood;
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    padding: 16px;
+}
+
+.card{
+    display: inline-block;
+    width: 260px;
+    padding: 16px;
+    margin: 15px;
+    color: aliceblue;
+    background-color: rgb(84, 80, 87);
+    box-shadow: 5px 7px 5px rgb(134, 136, 136);
+}
+
+.cardTitle{
+    text-align: center;
+    margin: 15px;
+
+
+}
+
+.cardDescription{
+    font-style: italic;
+}
+
+.cardDate{
+    font-family:italic;
+    text-align: center;
+    margin: 20px;
+}
