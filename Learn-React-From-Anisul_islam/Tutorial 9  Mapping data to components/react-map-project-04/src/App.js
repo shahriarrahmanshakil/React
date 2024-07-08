@@ -6,7 +6,6 @@ const items = [];
 // for(let i = 0; i < Data.length; i++){
 //   items.push(<Card title = {Data[i].Title} Description = {Data[i].Description} />)
 // }
-
 function App() {
   return (
     <div>
@@ -17,5 +16,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
